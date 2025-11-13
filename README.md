@@ -48,9 +48,6 @@ O foco é oferecer uma experiência simples, direta e divertida para o cliente, 
 ├── Web.config → Configurações da aplicação
 └── README.md
 
-yaml
-Copiar código
-
 ---
 
 ## ⚙️ Como Rodar Localmente
