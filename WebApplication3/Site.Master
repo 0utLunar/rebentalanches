@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication3.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <asp:ContentPlaceHolder ID="head" runat="server">
+  </asp:ContentPlaceHolder>
+  <link href="Css/Projeto.css" rel="stylesheet" />
+  <link href="Css/StyleSheet.css" rel="stylesheet" />
+  <!-- recursos para exibir slides na página -->
+  <script src="javascript/jquery-1.7.2.min.js"></script>
+  <script src="javascript/flexslider.min.js"></script>
+   <script src="https://kit.fontawesome.com/8adad964cf.js" crossorigin="anonymous"></script>
+  <link href="javascript/flexslider.css" rel="stylesheet" />
+</head>
+<body>
+  <form id="form1" runat="server">
+    
+    <!-- CABEÇALHO -->
+    <div class="cabecalho content-wrap">
+      <!-- LOGOMARCA -->
+      <div class="logomarca">
+        <asp:Image ID="Logomarca" ImageUrl="~/images/marca1.png" runat="server" />
+      </div>
+      <!-- BARRA TÍTULO -->
+      <div class="barra-titulo">
+        ANALISE E DESENVOLVIMENTO DE SISTEMAS 
+      </div>
+      <!--  BARRA MENU -->
+      <div class="barra-menu">
+        <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server">HOME</asp:HyperLink>
+        
+        <asp:HyperLink NavigateUrl="~/FaleConosco.aspx" ID="HyperLink2" runat="server">CONTATO</asp:HyperLink>
+
+         <asp:HyperLink NavigateUrl="~/Galeria.aspx" ID="HyperLink3" runat="server">GALERIA</asp:HyperLink>
+
+         <asp:HyperLink NavigateUrl="~/ExibirProdutos.aspx" ID="HyperLink4" runat="server">PRODUTOS</asp:HyperLink>
+      </div>
+    </div>
+    <!-- CONTEÚDO -->
+    <br />
+    <div class="conteudo content-wrap">
+      <asp:ContentPlaceHolder ID="Conteudo" runat="server">
+      </asp:ContentPlaceHolder>
+    </div>
+    <!-- RODAPÉ -->
+    <div class="rodape">
+      <div class="content-wrap">
+        <row>
+
+        </row>
+
+
+        <h3>Analise e Desenvolvimento de Sistemas</h3>
+        <h5>Faculdade de Tecnologia Ralph Biasi</h5>
+        <h6>Americana - SP</h6>
+        <h6>Prof.Me. Diógenes de Oliveira</h6>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
