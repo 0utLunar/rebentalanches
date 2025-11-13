@@ -37,15 +37,16 @@ O foco é oferecer uma experiência simples, direta e divertida para o cliente, 
 
 ## 🏗️ Estrutura do Projeto
 
-RebentaBurguer/
-├── App_Data
-├── Content
-├── Scripts
-├── Images
-├── Pages
-├── Default.aspx
-├── Web.config
+RebentaBurguer/<br>
+├── App_Data<br>
+├── Content<br>
+├── Scripts<br>
+├── Images<br>
+├── Pages<br>
+├── Default.aspx<br>
+├── Web.config<br>
 └── README.md
+
 
 ---
 
