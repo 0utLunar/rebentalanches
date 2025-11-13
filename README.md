@@ -37,15 +37,14 @@ O foco é oferecer uma experiência simples, direta e divertida para o cliente, 
 
 ## 🏗️ Estrutura do Projeto
 
-/RebentaBurguer
-│
-├── /App_Data       → Banco de dados (SQL Server .mdf)
-├── /Content        → CSS e estilos visuais
-├── /Scripts        → JavaScript e Bootstrap
-├── /Images         → Imagens dos produtos e layout
-├── /Pages          → Páginas internas (Cardápio, Contato, etc.)
-├── Default.aspx    → Página inicial
-├── Web.config      → Configurações da aplicação
+RebentaBurguer/
+├── App_Data
+├── Content
+├── Scripts
+├── Images
+├── Pages
+├── Default.aspx
+├── Web.config
 └── README.md
 
 ---
