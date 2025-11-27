@@ -141,15 +141,6 @@ namespace WebApplication3
         protected global::System.Web.UI.WebControls.Image Imagem;
 
         /// <summary>
-        /// Controle DropDownList1.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-
-        /// <summary>
         /// Controle BuscarProduto.
         /// </summary>
         /// <remarks>

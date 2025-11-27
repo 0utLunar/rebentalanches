@@ -223,7 +223,7 @@ button {
     border: 1px solid #c0c0c0;
     border-radius: 4px;
     color: white;
-    background-color: #355bc6;
+    background-color: #bd1f1a;
     font-size: 16px;
     padding: 10px 20px;
 }
@@ -231,7 +231,7 @@ button {
     input[type="submit"]:hover,
     input[type="button"]:hover,
     button:hover {
-        background-color: #293b90;
+        background-color: #a11b16;
         color: white;
     }
 
@@ -252,27 +252,27 @@ button {
 
 
 .botao-delete {
-    background-color: #ff6a00 !important;
+    background-color: #bd1f1a !important;
 }
 
     .botao-delete:hover {
-        background-color: #ff4500 !important;
+        background-color: #a11b16 !important;
     }
 
 .botao-editar {
-    background-color: #498b47 !important;
+    background-color: #bd1f1a !important;
 }
 
     .botao-editar:hover {
-        background-color: #37a533 !important;
+        background-color: #a11b16 !important;
     }
 
 .botao-inserir {
-    background-color: #355bc6 !important;
+    background-color: #bd1f1a !important;
 }
 
     .botao-inserir:hover {
-        background-color: #293b90 !important;
+        background-color: #a11b16 !important;
     }
 
 /**************************************************************

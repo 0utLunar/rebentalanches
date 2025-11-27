@@ -24,21 +24,27 @@
     <div class="cabecalho content-wrap">
       <!-- LOGOMARCA -->
       <div class="logomarca">
-        <asp:Image ID="Logomarca" ImageUrl="~/images/marca1.png" runat="server" />
+        <asp:Image ID="Logomarca" ImageUrl="~/images/rebentalogo.png" Width="75px" Height="75px" runat="server" />
       </div>
       <!-- BARRA TÍTULO -->
-      <div class="barra-titulo">
-        ANALISE E DESENVOLVIMENTO DE SISTEMAS 
+      <div class="barra-titulo nomezada">
+        REBENTA LANCHES - ARREBENTE A SUA FOME
       </div>
       <!--  BARRA MENU -->
       <div class="barra-menu">
-        <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server">HOME</asp:HyperLink>
-        
-        <asp:HyperLink NavigateUrl="~/FaleConosco.aspx" ID="HyperLink2" runat="server">CONTATO</asp:HyperLink>
+        <asp:HyperLink ID="Home" NavigateUrl="~/Default.aspx" runat="server">HOME</asp:HyperLink>
 
-         <asp:HyperLink NavigateUrl="~/Galeria.aspx" ID="HyperLink3" runat="server">GALERIA</asp:HyperLink>
+         <asp:HyperLink NavigateUrl="~/Default.aspx#cardapio" ID="Cardapio" runat="server">CARDÁPIO</asp:HyperLink>
 
-         <asp:HyperLink NavigateUrl="~/ExibirProdutos.aspx" ID="HyperLink4" runat="server">PRODUTOS</asp:HyperLink>
+          <asp:HyperLink NavigateUrl="~/Default.aspx#sobre" ID="Sobre" runat="server">SOBRE</asp:HyperLink>
+
+          <asp:HyperLink NavigateUrl="~/FaleConosco.aspx" ID="Contato" runat="server">CONTATO</asp:HyperLink>
+
+         <asp:HyperLink NavigateUrl="~/Admin/ExibirProdutos.aspx" Visible="false" ID="Produtos" runat="server">PRODUTOS</asp:HyperLink>
+
+          <asp:HyperLink NavigateUrl="~/Login.aspx" ID="Login" runat="server">ENTRAR</asp:HyperLink>
+
+          <asp:LinkButton ID="Logout" OnClick="Logout_Click" Visible="false" runat="server">SAIR</asp:LinkButton>
       </div>
     </div>
     <!-- CONTEÚDO -->
@@ -59,6 +65,9 @@
         <h5>Faculdade de Tecnologia Ralph Biasi</h5>
         <h6>Americana - SP</h6>
         <h6>Prof.Me. Diógenes de Oliveira</h6>
+        <h6>Feito Por:</h6>
+        <h6>Arthur Manzatto de Carvalho Silva</h6>
+        <h6>Lucas Cirino</h6>
       </div>
     </div>
   </form>

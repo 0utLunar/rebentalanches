@@ -39,7 +39,7 @@ namespace WebApplication3
 
         protected void Cadastrar_produto_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/CadastroProdutos.aspx");
+            Response.Redirect("~/Admin/CadastroProdutos.aspx");
         }
 
         protected void Buscar_Click(object sender, EventArgs e)

@@ -26,7 +26,7 @@
     </div>
     <div class="col-6">
       <div class="border box-shadow">
-        <iframe src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1759410694881!5m2!1spt-BR!2sbr!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQzRsX25TRnc.!2m2!1d-27.12553929009142!2d-109.2772584039277!3f125.40846572857163!4f17.841733492401744!5f0.7820865974627469" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.692128009133!2d-47.35273622378284!3d-22.739681831922066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89bea5cdb94f9%3A0xffb368bd91ea12ae!2sFatec%20Americana%20-%20Faculdade%20de%20Tecnologia%20de%20Americana%20Ministro%20Ralph%20Biasi!5e0!3m2!1spt-BR!2sbr!4v1764255750358!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </div>

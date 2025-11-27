@@ -53,10 +53,6 @@
     <div class="row margin-top-60">
         <div class="col-10">
             <div class="border box-shadow padding-14">
-                <asp:DropDownList ID="DropDownList1" runat="server">
-
-
-                </asp:DropDownList>
 
                 <asp:TextBox ID="BuscarProduto" Width="74.76%" runat="server"></asp:TextBox>
                 <asp:Button ID="Buscar" OnClick="Buscar_Click" runat="server" Text="Buscar" />
