@@ -21,7 +21,7 @@ O foco é oferecer uma experiência simples, direta e divertida para o cliente, 
 - **Bootstrap**
 - **JavaScript**
 - **SQL Server** (para armazenar dados de produtos, usuários e pedidos)
-- **Hospedagem:** [Somee.com](https://somee.com)
+- **Hospedagem:** [Somee.com](https://somee.com) 
 
 ---
 
