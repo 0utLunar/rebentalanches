@@ -54,4 +54,4 @@ RebentaBurguer/<br>
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/RebentaBurguer.git
+   git clone https://github.com/0utLunar/RebentaBurguer.git
